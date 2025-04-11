@@ -1,14 +1,8 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  text-align: center;
-}
+// Simulated values (you can connect to real data later)
+let likes = 120;
+let comments = 45;
+let followers = 2300;
 
-#analytics {
-  margin-top: 30px;
-  background-color: white;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px gray;
-}
+document.getElementById("likes").innerText = likes;
+document.getElementById("comments").innerText = comments;
+document.getElementById("followers").innerText = followers;
